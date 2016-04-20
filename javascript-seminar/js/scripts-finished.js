@@ -6,7 +6,7 @@ function submitPost() {
   // Get the textarea containing the post text
   var postText = document.getElementById("compose-post")
   var postContent = postText.value.trim();
-  var reallyPost = confirm("Really post: " + postContent);
+  var reallyPost = confirm("Really post: " + postContent + "?");
   // If the textarea actually contains words
   // We could check postText.value != "" but that would allow a post of all spaces
   // .trim() gets rid of whitespace, so any post that's all spaces will get trimmed to nothing
