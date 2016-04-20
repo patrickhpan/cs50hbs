@@ -70,3 +70,6 @@ a.navbar-brand, .navbar-text {
   padding: 5px;
   width: calc(100% - 30px);
 }
+#git {
+  cursor: pointer;
+}

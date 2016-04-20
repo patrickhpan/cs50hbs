@@ -78,3 +78,7 @@ function commentTemplate(text) {
   </div> \
   '
 }
+
+function showGitUrl() {
+  alert("http://git.patrickpan.com/patrick/cs50hbs.git")
+}
