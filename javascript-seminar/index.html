@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fakebook</title>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/css/styles.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <!-- Don't worry about this nav and its weird classes... it's a *lot* of custom CSS.-->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="/" class="navbar-brand">Fakebook</a>
+        </div>
+        <p class="navbar-text navbar-right">John Harvard</p>
+      </div>
+    </nav>
+    <!-- This is a div containing a textbox and button to compose posts -->
+    <div id="compose" class="container">
+      <div class="post">
+        <div class="content-area">
+          <h4>Hi, John Harvard!</h4>
+          <textarea id="compose-post" placeholder="What's on your mind?"></textarea>
+          <!-- <button id="submit-post">Post</button> -->
+          <button id="submit-post" onclick="submitPost()">Post</button>
+        </div>
+      </div>
+    </div>
+    <!-- This is a div containing all composed posts -->
+    <div id="main" class="container">
+      <!-- The first post, which is a sample -->
+      <div class="post">
+        <div class="content-area">
+          <h4>John Harvard</h4>
+          <p>Welcome to Fakebook! In our seminar today we'll be building a system to write new posts and comment on posts.</p>
+        </div>
+        <div class="comment-area">
+          <div class="comments">
+            <div class="comment">
+              <h5>John Harvard</h5>
+              Wow! This is a comment!
+            </div>
+          </div>
+          <!-- <input class="compose-comment" placeholder="Write a comment..."></input> -->
+          <input class="compose-comment" placeholder="Write a comment..." onkeydown="commentKeyDown(event)"></input>
+        </div>
+      </div>
+    </div>
+  <!-- <script src="/js/scripts.js" charset="utf-8"></script> -->
+  <script src="/js/scripts-finished.js" charset="utf-8"></script>
+  </body>
+</html>
