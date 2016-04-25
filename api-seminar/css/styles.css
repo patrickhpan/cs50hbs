@@ -1,0 +1,49 @@
+html.loading {
+  display: none!important;
+}
+#main {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  max-width: 600px;
+}
+#main > div {
+  width: 100%;
+  padding-bottom: 20px;
+}
+#weather {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#temperature {
+  font-size: 500%;
+  padding-right: 10px;
+}
+#searchbox {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  width: 100%;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+}
+.news-image {
+  flex: 1;
+}
+.news-image img {
+  width: 100%;
+  padding-right: 20px;
+}
+.news-text {
+  flex: 2;
+}

@@ -1,0 +1,29 @@
+<html class="loading">
+  <head>
+    <title>Weather and News</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="main" class="container">
+      <h1>Weather and News</h1>
+      <div id="weather" class="jumbotron">
+        <div id="temperature">
+        </div>
+        <div id="weather-info">
+          <div id="conditions">
+          </div>
+          <div id="location">
+          </div>
+        </div>
+      </div>
+      <div>
+        <input type="text" id="searchbox" placeholder="Search for News" onkeydown="searchKeyDown(event)"/>
+      </div>
+      <div id="news"></div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scripts-finished.js"></script>
+  </body>
+</html>
