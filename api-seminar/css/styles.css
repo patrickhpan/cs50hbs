@@ -38,7 +38,9 @@ html.loading {
 .news-item {
   display: flex;
   flex-direction: row;
+  padding-top: 10px;
   padding-bottom: 10px;
+  border-top: 1px solid #ddd;
 }
 .news-image {
   flex: 1;
