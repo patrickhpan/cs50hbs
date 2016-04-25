@@ -14,6 +14,9 @@ html.loading {
   width: 100%;
   padding-bottom: 20px;
 }
+#git {
+  cursor: pointer;
+}
 #weather {
   display: flex;
   flex-direction: row;

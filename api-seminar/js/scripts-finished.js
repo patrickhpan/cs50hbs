@@ -56,3 +56,7 @@ function newsItemTemplate(data) {
     </div> \
   </div>'
 }
+
+function showGitUrl() {
+  alert("http://git.patrickpan.com/patrick/cs50hbs.git")
+}
